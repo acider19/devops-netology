@@ -12,3 +12,4 @@ New line
 - файлы с локальной перезаписью ресурсов override.tf, также вариант в формате json и любые файлы содержащие в названии _override и с расширениями .tf и .tf.json
 - файл переходного состояния .terraform.tfstate.lock.info
 - файлы настроек командной строки .terraformrc и terraform.rc
+another new line
