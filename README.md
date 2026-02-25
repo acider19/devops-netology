@@ -13,3 +13,5 @@ New line
 - файл переходного состояния .terraform.tfstate.lock.info
 - файлы настроек командной строки .terraformrc и terraform.rc
 another new line
+
+добавлена строка в VSCodium
