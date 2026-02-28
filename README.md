@@ -13,5 +13,5 @@ New line
 - файл переходного состояния .terraform.tfstate.lock.info
 - файлы настроек командной строки .terraformrc и terraform.rc
 
-##### Результат выполнения домашнего задания по лекции "Ветвления в Git"
-[Git graph](/img/screen1.png)
+# Результат выполнения домашнего задания по лекции "Ветвления в Git"
+![Git graph](/img/screen1.png)
