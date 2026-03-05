@@ -26,7 +26,7 @@ Date:   Thu Jun 18 10:29:58 2020 -0400
 Комментарий: `Update CHANGELOG.md`
 
 2. Ответы:
-- Тегу `v0.12.23`
+- Тег `v0.12.23`
     Узнаем с помощью команды `git show -s --format=%d 85024d3`
 
 - Два родителя (merge commit). Хеш 1: `56cd7859e0` и хеш 2: `9ea88f22fc`
@@ -44,7 +44,7 @@ Date:   Thu Jun 18 10:29:58 2020 -0400
     4b6d06cc5d Update CHANGELOG.md
     dd01a35078 Update CHANGELOG.md
     225466bc3e Cleanup after v0.12.23 release
-```
+    ```
 
 - Выполняем `git log -S 'func providerSource' --format='%h' | tail -n 1` и получаем коммит `8c928e8358`
 
@@ -57,4 +57,4 @@ Date:   Thu Jun 18 10:29:58 2020 -0400
     66ebff90cd 2017-05-03
     8364383c35 2017-04-13
     ```
-- Выполнем `git log -S "synchronizedWriters" --format="%an" | tail -n 1` получаем автора `Martin Atkins`
+- Выполняем `git log -S "synchronizedWriters" --format="%an" | tail -n 1` получаем автора `Martin Atkins`
