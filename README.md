@@ -3,6 +3,8 @@
 Версия terraform
 ![terraform version](img/screen1.png)
 
+---
+
 1. В `.gitignore` присутствует имя файла `personal.auto.tfvars`, соответственно в нем и можно хранить "чувствительную" информацию.
   
   Секретное содержимое из файла состояния: `"result": "pcT28LiI4XSnNwBt"`
@@ -35,3 +37,7 @@
   
   Пункт из [документации](https://library.tf/providers/kreuzwerker/docker/latest/docs/resources/image)
   ![doc1](img/screen7.png)
+
+---
+
+2. [Папка с кодом](my_src)
