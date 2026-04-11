@@ -41,3 +41,28 @@
 ---
 
 2. [Папка с кодом](src_my)
+
+---
+
+3. Для выполнения кода с помощью `opentofu` необходимо создать файл `~/.tofurc` со следующим содержимым
+  ```bash
+provider_installation {
+  network_mirror {
+    url = "https://terraform-mirror.yandexcloud.net/"
+    include = ["registry.opentofu.org/*/*"]
+  }
+  direct {
+    exclude = ["registry.opentofu.org/*/*"]
+  }
+}
+  ```
+  
+  Также, оказалось, что последняя поддерживаемая `opentofu` версия yandex провайдера это `0.127`, а для предыдущих заданий использовалась версия `0.129`, тогда как текущая версия у самого yandex `0.197`.
+  
+  После создания файла `~/.tofurc` и смены версии yandex провайдера, код выполняется успешно.
+  
+  Начало вывода команды `tofu apply`
+  ![tofu_start](img/screen8.png)
+  
+  Окончание вывода команды `tofu apply`
+  ![tofu_end](img/screen9.png)
